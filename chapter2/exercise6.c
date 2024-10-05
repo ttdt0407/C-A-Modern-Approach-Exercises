@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-double x;
-double result;
-
 int main() 
-{
+{   
+    double x;
+    double result; 
     printf("Enter x: ");
     scanf("%lf", &x);
 
