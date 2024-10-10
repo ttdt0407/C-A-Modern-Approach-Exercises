@@ -3,7 +3,7 @@
 int main(void)
 {
     int day, month, year;
-    printf("Enter a date (mm/dd/yyyy) : ");
+    printf("Enter a date (mm/dd/yyyy): ");
     scanf("%d / %d / %d", &month, &day, &year);
 
     if( day > 31 || day < 1 )
