@@ -42,5 +42,22 @@ int main()
         printf("Greatest common divisor: %d\n", gcd);
 
         return 0;
+        /* Euclid's Algorithm
+        int main(void)
+        {
+          int m, n, remainder;
 
+          printf("Enter two integers: ");
+          scanf("%d%d", &m, &n);
+
+          while (n != 0) {
+            remainder = m % n;
+            m = n;
+            n = remainder;
+          }
+
+          printf("Greatest common divisor: %d\n", m);
+
+          return 0;
+          */
 }
