@@ -15,7 +15,6 @@ int main ()
         e *= i;
         sum += 1 / e;
     }
-
     printf("e = %f", sum);
     return 0;
 }
