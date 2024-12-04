@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-// Conver the input into a time expressed in minutes since midnight, and compare it to the departure times, also expressed in minutes
+// Conver the input into a time expressed in minutes since
+// midnight, and compare it to the departure times, also expressed in minutes
 
 int main()
 {
