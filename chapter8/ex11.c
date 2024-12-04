@@ -11,9 +11,11 @@ int main()
 
     while((ch=getchar())!= '\n')
     {
-        if(isalpha(ch))
-        {
-            ch = toupper(ch);
+        if ((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122)) // 'A' = 65; 'Z' = 90; 'a' = 97; 'z'=122
+        {   
+            if (ch >= 97 && ch <= 122)
+                ch -= 32;
+
             for (int i = 0; i < 8; i++)
             {
                 for (int j = 0; j < 3; j++)
