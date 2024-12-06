@@ -2,8 +2,6 @@
 //  Enter a sentence: you can cage a swallow can't you?
 //  Reversal of sentence: you can't swallow a cage can you?
 #include <stdio.h>
-
-#include <ctype.h>
 int main(void)
 {
     char ch;
@@ -45,8 +43,9 @@ int main(void)
         index--;
         
     }
-    if (punctuation != '\0')
-    printf("%c", punctuation);
+    if (punctuation != '\0'){
+      printf("%c", punctuation);
+    }
 
     return 0;
 }
